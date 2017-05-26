@@ -29,6 +29,11 @@ playApp.controller('playCtrl',['$scope',function($scope){
         url:'https://s-media-cache-ak0.pinimg.com/736x/26/d6/ce/26d6ceba8b1e558a6cc0c8f4cee6cd4f.jpg',
         title:'Noodles'
     }];
+
+    $scope.basket = [];
+    $scope.addToBasket = function(item){
+        $scope.basket.push(item);
+    };
     
 }]);
 

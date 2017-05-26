@@ -12,11 +12,20 @@
         <span class="main-logo">HomeChefs</span>
 
         <div ng-controller="playCtrl" class="main-content">
+            
             <div ng-repeat="photo in photos" class="col-xs-3">
                 <span class="food-title">{{photo.title}}</span>
                 <div class="food-thumb">
                     <img src="{{photo.url}}" width="100%" height="200px">
+                    <button class="add-item" ng-click="addToBasket(photo)">Add to basket</button>
                 </div>
+            </div>
+            
+            <div class="cart-summary col-xs-12">
+                <label>Selected Items:</label>
+                <ul>
+                    <li ng-repeat="item in basket">{{item.title}}</li>
+                </ul>
             </div>
         </div>
 
