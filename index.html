@@ -2,23 +2,23 @@
 
     <head>
         <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="gallery.css" rel="stylesheet" type="text/css" />
         <script src="angular/angular.min.js"></script>
         <script src="app.js"></script>
     </head>
     
     <body ng-app="playApp">
-    
-        <div ng-controller="playCtrl">
-            {{messageCtrl}}
-            
-            <div class="well">
-                {{name}}
-                {{age}}
+        
+        <span class="main-logo">HomeChefs</span>
+
+        <div ng-controller="playCtrl" class="main-content">
+            <div ng-repeat="photo in photos" class="col-xs-3">
+                <span class="food-title">{{photo.title}}</span>
+                <div class="food-thumb">
+                    <img src="{{photo.url}}" width="100%" height="200px">
+                </div>
             </div>
-            
         </div>
-        
-        <play-handler name="name" age="age"  ng-click="changeControllerVal()"></play-handler>
-        
+
     </body>
 </html>
