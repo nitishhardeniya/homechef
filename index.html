@@ -28,14 +28,14 @@
 
             <div class="main-content">
                 
-                <div ng-repeat="photo in photos" class="col-sm-3 col-xs-6" style="margin-top: 20px">
+                <div ng-repeat="item in items" class="col-sm-3 col-xs-6" style="margin-top: 20px">
                     <div class="food-thumb">
-                        <img src="{{photo.url}}" width="100%" height="200px">
+                        <img src="{{item.url}}" width="100%" height="200px">
                         <div class="item-description">
-                            <span class="food-title">{{photo.title}}</span>
+                            <span class="food-title">{{item.title}}</span>
                             <span class="food-detail">Some description for the food item</span>        
                         </div>
-                        <button class="add-item" ng-click="addToBasket(photo)">Add to basket</button>
+                        <button class="add-item" ng-click="addToBasket(item)">Add to basket</button>
                     </div>
                 </div>
             </div>
