@@ -1,6 +1,4 @@
-var playApp = angular.module('playApp',[]);
-
-playApp.controller('playCtrl',['$scope',function($scope){
+foodApp.controller('foodCtrl',['$scope',function($scope){
     
     $scope.items = [{
         imgId:1,
