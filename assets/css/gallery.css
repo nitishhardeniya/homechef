@@ -1,5 +1,5 @@
 body{
-	background: orange;
+	/*background: rgba(255, 165, 0, 0.7);*/
 }
 
 .main-content {
@@ -7,6 +7,12 @@ body{
 	margin-right: 20px;
 	margin-bottom: 50px;
 	position: absolute;
+}
+
+.navbar {
+	border-bottom: #f5f5f5 1px solid;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	border-radius: 0px;
 }
 
 .navbar-brand {
@@ -42,6 +48,14 @@ body{
 
 .item-description {
 	padding: 5px;
+}
+
+.item-price {
+	background: #44aec3;
+	opacity: 0.6;
+	color: #fff;
+	position: absolute;
+	padding:5px; 
 }
 
 .cart-summary {
