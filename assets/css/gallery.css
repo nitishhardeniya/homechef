@@ -104,3 +104,15 @@ ul li {
 	font-weight: 500;
 	line-height: 20px;
 }
+
+.location {
+	top: 25%;
+	left: 25%;
+	position: absolute;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.input-long {
+	width: 400px;
+	height: 40px;
+}
