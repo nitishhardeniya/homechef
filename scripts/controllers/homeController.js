@@ -1,8 +1,8 @@
-foodApp.controller('homeCtrl',['$scope',function($scope){
+foodApp.controller('homeCtrl',['$scope','$state',function($scope,$state){
 
 	$scope.showDishes = function(){
 		console.log($scope.myLocation);
-		window.location.href('/');
+		$state.go('order');
 	};
 
 }]);

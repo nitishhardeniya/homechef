@@ -1,0 +1,27 @@
+{
+  "name": "homechef",
+  "version": "1.3",
+  "authors": [
+    "Touzet David <nit128ggs@gmail.com>",
+    "Abdullah Almsaeed <support@almsaeedstudio.com>"
+  ],
+  "description": "Homechef",
+  "main": [],
+  "keywords": [
+    "bootstrap",
+    "admin",
+    "template",
+    "twitter bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "http://almsaeedstudio.com/",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.5.7",
+    "bootstrap": "3.0.3",
+    "angular-ui-router": "0.2.18"
+  }
+}
