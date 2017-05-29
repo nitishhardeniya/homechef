@@ -113,6 +113,14 @@ ul li {
 }
 
 .input-long {
-	width: 400px;
-	height: 40px;
+	padding: 20px 110px 20px 50px;
+    background: #fff;
+    width: 500px;
+    height: 54px;	
+    border: 0;
+    outline: 0;
+    color: #3e4152;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    border-radius: 3px 0 0 3px;
 }
