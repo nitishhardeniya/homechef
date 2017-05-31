@@ -36,8 +36,6 @@ body{
 
 .navbar-brand {
 	color: orange !important;
-	margin-left: 300px;
-	font-size: 30px;
 }
 
 .food-title {
@@ -135,7 +133,7 @@ ul li {
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
 	padding: 20px 110px 20px 50px;
     background: #fff;
-    width: 500px;
+    width: 100%;
     height: 45px;	
     border: 0;
     outline: 0;
