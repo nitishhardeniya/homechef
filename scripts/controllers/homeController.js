@@ -8,8 +8,8 @@ foodApp.controller('homeCtrl',['$scope','$state','locationService',function($sco
 	$scope.getLocationAddress = function(searchstr){
 		if(searchstr.length > 3){
 			locationService.getLocation(searchstr).then(function(response){
-				console.log(response.data.results);
-				$scope.addresses = response.data.results;
+				console.log(response.data.predictions);
+				$scope.addresses = response.data.predictions;
 			});	
 		}
 	}
