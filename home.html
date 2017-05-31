@@ -8,8 +8,11 @@
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
 		<input type="text" class="input-long" ng-change="getLocationAddress(myLocation)" placeholder="Enter your location" name="" ng-model="myLocation">
-		<ul ng-show="addresses.length>0"><li ng-repeat="address in addresses">{{address.description}}</li></ul>
-		<button class="add-item" ng-click="showDishes()">Show dishes</button>
+		<div class="search-options">
+			<ul ng-show="addresses.length>0"><li ng-repeat="address in addresses" ng-click="selectLocation(address)">{{address.description}}</li></ul>	
+		</div>
 	</div>
-	<div class="col-md-2"></div>
+	<div class="col-md-2">
+		<button class="add-item" style="height: 45px" ng-click="showDishes()">Show dishes</button>
+	</div>
 </div>

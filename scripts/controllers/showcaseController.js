@@ -1,5 +1,5 @@
-foodApp.controller('foodCtrl',['$scope','$aside',function($scope,$aside){
-    
+foodApp.controller('foodCtrl',['$scope','$state','$aside',function($scope,$state,$aside){
+    console.log($state.current.params);    
     $scope.items = [{
         imgId:1,
         url:'https://www.skymetweather.com/themes/skymet/images/gallery/toplists/Top-Not-to-miss-food-items-in-Monsoon/5.jpg',

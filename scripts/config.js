@@ -11,6 +11,9 @@ foodApp.config(function($stateProvider, $urlRouterProvider) {
             name:'order',
             url: '/order',
             templateUrl: 'showcase.html',
-            controller:'foodCtrl'
+            controller:'foodCtrl',
+            params:{
+                location:null
+            }
         });
 });
