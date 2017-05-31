@@ -83,10 +83,6 @@ body{
 	border-radius:0px;
 	font-size: 12px;
 	transition: 200ms;
-	width: 200px;
-	position: absolute;
-	top:52px;
-	right: 0px;
 }
 
 .add-item {

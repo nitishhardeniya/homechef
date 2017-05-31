@@ -1,4 +1,4 @@
-foodApp.controller('foodCtrl',['$scope',function($scope){
+foodApp.controller('foodCtrl',['$scope','$aside',function($scope,$aside){
     
     $scope.items = [{
         imgId:1,
@@ -42,4 +42,19 @@ foodApp.controller('foodCtrl',['$scope',function($scope){
         $scope.basket.push(item);
     };
     
+    $scope.showCartSummary = function(){
+        var asideScope = $scope.$new();
+        var asideInstance = $aside.open({
+          templateUrl: 'views/modals/cart-summary.html',
+          placement: 'right',
+          scope:asideScope,
+          size: 'sm'
+        });
+        asideScope.proceedToCheckout = function(){
+            asideInstance.close();
+        };
+    };
+
+    
+
 }]);

@@ -1,0 +1,13 @@
+<div class="modal-body">
+	<label>Your Order : </label>
+	<div ng-repeat="item in basket" class="basket-items">
+		<span>{{item.title}}</span>
+		<span class="pull-right">{{item.price}}</span>
+	</div>
+
+	<hr>
+	
+	<strong>Subtotal :</strong> <span class="pull-right form-group">300</span>
+
+	<button class="add-item" ng-click="proceedToCheckout()">Proceed to checkout</button>
+</div>

@@ -10,7 +10,7 @@
                   <li><a href="#">About us</a></li>
                 </ul>
                 <ul class="nav navbar-nav" style="float: right;">
-                    <li><a href="#" class="navbar-link basket">Basket <span class="basket-count">{{basket.length}}</span> </a></li>
+                    <li><a href="" class="navbar-link basket" ng-click="showCartSummary()">Basket <span class="basket-count">{{basket.length}}</span> </a></li>
                 </ul>
               </div>
             </nav>
@@ -27,11 +27,6 @@
                         <button class="add-item" ng-click="addToBasket(item)">Add to basket</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="cart-summary col-xs-12" ng-show="basket.length > 0">
-                <label>Selected Items:</label>
-                <span class="basket-items" ng-repeat="item in basket">{{item.title}}</span>
             </div>
 
         </div>

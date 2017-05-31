@@ -1,1 +1,1 @@
-var foodApp = angular.module('foodApp',['ui.router']);
+var foodApp = angular.module('foodApp',['ui.router','ui.bootstrap','ngAside']);
