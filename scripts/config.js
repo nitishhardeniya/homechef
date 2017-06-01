@@ -4,13 +4,13 @@ foodApp.config(function($stateProvider, $urlRouterProvider) {
     .state({
             name:'home',
             url: '/home',
-            templateUrl : "home.html",
+            templateUrl : "views/home.html",
         	controller : "homeCtrl"
         })
     .state({
             name:'order',
             url: '/order',
-            templateUrl: 'showcase.html',
+            templateUrl: 'views/showcase.html',
             controller:'foodCtrl',
             params:{
                 location:null
