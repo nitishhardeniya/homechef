@@ -114,7 +114,11 @@ body{
 }
 
 .basket {
-	background: #eee;
+	background: #eaeaea;
+}
+
+.msg-success {
+	color: green;
 }
 
 ul li {

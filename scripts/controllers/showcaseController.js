@@ -39,7 +39,7 @@ foodApp.controller('foodCtrl',['$scope','$state','$aside',function($scope,$state
 
     $scope.basket = [];
     $scope.addToBasket = function(item){
-        $scope.basket.push(item);
+        $scope.basket.push({itemId:item.imgId,itemName:item.title,itemPrice:item.price});
     };
     
     $scope.showCartSummary = function(){
@@ -52,6 +52,8 @@ foodApp.controller('foodCtrl',['$scope','$state','$aside',function($scope,$state
         });
         asideScope.proceedToCheckout = function(){
             asideInstance.close();
+            localStorage.setItem("cart", JSON.stringify($scope.basket));
+            $state.go('checkout');
         };
     };
 
