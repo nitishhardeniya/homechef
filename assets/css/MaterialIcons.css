@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'MaterialIcons';
+  src: url('fonts/MaterialIcons-Regular.eot');
+  src: url('fonts/MaterialIcons-Regular.eot?') format('embedded-opentype'), 
+       url('fonts/MaterialIcons-Regular.woff2') format('woff2'), 
+       url('fonts/MaterialIcons-Regular.woff') format('woff'), 
+       url('fonts/MaterialIcons-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.mdi {
+  display: inline-block;
+  font: normal normal normal 14px/1 MaterialIcons;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Icon decleration */
+
+.mdi-visibility:before {content: "\e8f4";}
+.mdi-view-module:before {content: "\e8f0";}
+.mdi-apps:before {content: "\e5c3";}
+.mdi-live-tv:before {content: "\e639";}
+.mdi-playlist-play:before {content: "\e05f";}
+.mdi-dashboard:before {content: "\e871";}
+.mdi-trend-up:before {content: "\e8e5";}
+.mdi-chrome-reader-mode:before {content: "\e86d";}
+.mdi-playlist-add-check:before {content: "\e065";}
+.mdi-insert-chart:before {content: "\e24b";}
+.mdi-tune:before {content: "\e429";}
+.mdi-remove-circle-outline:before {content: "\e15d";}
+.mdi-remove-circle:before {content: "\e15c";}
+.mdi-add-circle-outline:before {content: "\e148";}
+.mdi-add-circle:before {content: "\e147";}
+.mdi-check-circle:before {content: "\e86c";}
+.mdi-radio-button-unchecked:before {content: "\e836";}
+.mdi-radio-button-checked:before {content: "\e837";}
+.mdi-check-box:before {content: "\e834";}
+.mdi-check-box-outline-blank:before {content: "\e835";}
+.mdi-expand-more:before {content: "\e5cf";}
+.mdi-delete:before {content: "\e872";}
+.mdi-check:before {content: "\e5ca";}
+.mdi-close:before {content: "\e5cd";}
+.mdi-arrow-back:before {content: "\e5c4";}
+.mdi-arrow-forward:before {content: "\e5c8";}
+.mdi-tending-flat:before {content: "\e8e4";}
+.mdi-print:before {content: "\e8ad";}
+.mdi-open-with:before {content: "\e89f";}
+.mdi-error:before {content: "\e000";}
+.mdi-error-outline:before {content: "\e001";}
+.mdi-help:before {content: "\e887";}
+.mdi-create:before {content: "\e150";}
+.mdi-cloud-upload:before {content: "\e2c3";}
+.mdi-cloud-download:before {content: "\e2c0";}
+.mdi-file-download:before {content: "\e2c4";}
+.mdi-arrow-drop-down:before {content: "\e5c5";}
+.mdi-arrow-drop-up:before {content: "\e5c7";}
+.mdi-navigate-before:before {content: "\e408";}
+.mdi-navigate-next:before {content: "\e409";}
+.mdi-person-add:before {content: "\e7fe";}
+.mdi-search:before {content: "\e8b6";}
+.mdi-today:before {content: "\e8df";}
+.mdi-insert-invitation:before {content: "\e24f";}
+.mdi-date-range:before {content: "\e916";}
+.mdi-menu:before {content: "\e5d2";}
+.mdi-warning:before {content: "\e002";}
+.mdi-add:before {content: "\e145";}
+.mdi-reply:before {content: "\e042";}
+.mdi-info:before {content: "\e88e";}
+.mdi-info-outline:before {content: "\e88f";}
+.mdi-logout:before{content: "\e8ac";}

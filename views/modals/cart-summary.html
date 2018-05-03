@@ -7,6 +7,7 @@
 		<label>Your Order : </label>
 		
 		<div ng-repeat="item in basket" class="basket-items">
+			<img src="{{item.url}}" height="50px" width="50px">
 			<span>{{item.itemName}}</span>
 			<span class="pull-right">&#8377;{{item.itemPrice}}</span>
 		</div>
