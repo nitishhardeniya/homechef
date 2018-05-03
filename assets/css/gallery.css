@@ -32,9 +32,8 @@ body{
 }
 
 .main-content {
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 50px;
+	/*background-color:f7f7f7;*/
+	width:100%;
 	position: absolute;
 }
 
