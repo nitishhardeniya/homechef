@@ -125,11 +125,16 @@ body{
 }
 
 .basket {
-	background: #eaeaea;
+	background: #f7f7f7;
+	min-height: 300px;
+	padding-top:20px;
 }
 
 .msg-success {
 	color: green;
+    border: 1px solid green;
+    height: 30px;
+    line-height: 2;
 }
 
 ul li {

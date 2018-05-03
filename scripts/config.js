@@ -21,5 +21,11 @@ foodApp.config(function($stateProvider, $urlRouterProvider) {
             url:'/checkout',
             templateUrl:'views/checkout.html',
             controller:'checkoutCtrl'
+    })
+	.state({
+            name:'about',
+            url:'/about',
+            templateUrl:'views/about.html',
+            controller:'aboutCtrl'
     });
 });
